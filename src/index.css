@@ -1,0 +1,23 @@
+:root {
+  --accent-color: orange;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --gray-color: #e4e4e4;
+  --primary-bg-color: whitesmoke;
+  --secondary-bg-color: #6b7688;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: var(--primary-bg-color);
+  /* background-image: url("https://images.unsplash.com/photo-1516410529446-2c777cb7366d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"); */
+  background-size: cover;
+  background-position: center;
+}
