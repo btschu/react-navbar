@@ -12,8 +12,6 @@ a:hover {
     color: var(--accent-color);
 }
 
-/* header */
-
 header {
     position: relative;
     padding: 0 2rem;
