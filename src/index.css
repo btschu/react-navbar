@@ -4,7 +4,7 @@
   --black-color: #000000;
   --gray-color: #e4e4e4;
   --primary-bg-color: whitesmoke;
-  --secondary-bg-color: #6b7688;
+  --secondary-bg-color: #333;
 }
 
 * {
@@ -12,6 +12,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
+  /* transition: color .1s ease, background-color .1s ease; */
 }
 
 body {

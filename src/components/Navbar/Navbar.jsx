@@ -59,6 +59,7 @@ const Navbar = () => {
           {isMenuOpen === false ? <FaBars /> : <AiOutlineClose />}
         </div>
 
+
         {/* mobile dropdown menu */}
         <div className={`dropdown-menu ${isMenuOpen}`} ref={ref}>
           <ul>
